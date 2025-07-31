@@ -1,6 +1,6 @@
 # Land Scene Use Classification using Pretrained Models
 
-Utilized Dataset: [LUSC Dataset](https://www.kaggle.com/datasets/apollo2506/landuse-scene-classification)
+Utilized Dataset: [LUSC Dataset on Kaggle](https://www.kaggle.com/datasets/apollo2506/landuse-scene-classification)
 
 ## Model Used: Xception
 
@@ -9,10 +9,13 @@ Utilized Dataset: [LUSC Dataset](https://www.kaggle.com/datasets/apollo2506/land
  - Recall : 0.8933
  - F1 Score : 0.8927
  - Average Inference Time per Image : 0.1071 seconds
- - Trained on RTX 2060
+ - Trained on RTX 2060 with WSL
 
-### To classify custom images
- - use the function `classify_new_image('path_to_model', 'path_to_image')`
+### How to setup:
+ - Install all libraries with `pip install -r requirements.txt` 
+ - **Note:** tensorflow GPU is only supported in Linux
+ - Run all the cells and wait for training
+ - use the function `classify_new_image('path_to_model', 'path_to_image')` to classify custom images
 
 ### About Dataset:
  - Total Classes : 21
