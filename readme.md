@@ -9,7 +9,7 @@ Utilized Dataset: [LUSC Dataset](https://www.kaggle.com/datasets/apollo2506/land
  - Recall : 0.8933
  - F1 Score : 0.8927
  - Average Inference Time per Image : 0.1071 seconds
- - Trained on RTX 2060 Mobile
+ - Trained on RTX 2060
 
 ### To classify custom images
  - use the function `classify_new_image('path_to_model', 'path_to_image')`
