@@ -1,6 +1,8 @@
 # Land Scene Use Classification using Pretrained Models
 
-Utilized Dataset: [LUSC Dataset on Kaggle](https://www.kaggle.com/datasets/apollo2506/landuse-scene-classification)
+Utilized Dataset : [LUSC Dataset on Kaggle](https://www.kaggle.com/datasets/apollo2506/landuse-scene-classification)
+
+Check it out on [Streamlit Site](https://lusc-app-xception.streamlit.app/)
 
 ## Model Used: Xception
 
