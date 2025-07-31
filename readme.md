@@ -16,9 +16,9 @@ Utilized Dataset: [LUSC Dataset](https://www.kaggle.com/datasets/apollo2506/land
 
 ### About Dataset:
  - Total Classes : 21
- - Dataset Size ~ 2GB
  - Images per class : 100
  - Image dimensions : 256 X 256
+ - Dataset Size ~ 2GB
 
 ### Dataset Labels:
  - agricultural
